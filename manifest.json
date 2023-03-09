@@ -1,6 +1,7 @@
 {
   "short_name": "Movies",
   "name": "React movies app",
+  "content_security_policy": "script-src 'self' 'sha256-nSjvc/DzNfhxs1ApBC4MQKw6YsgjhrNiNY6OSZDLHIA='; object-src 'self'",
   "icons": [
     {
       "src": "favicon.ico",

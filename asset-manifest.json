@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/marknik139/movies-omdb-api/static/css/main.259280f5.css",
-    "main.js": "/marknik139/movies-omdb-api/static/js/main.402746ec.js",
+    "main.js": "/marknik139/movies-omdb-api/static/js/main.4eec8c9b.js",
     "index.html": "/marknik139/movies-omdb-api/index.html",
     "main.259280f5.css.map": "/marknik139/movies-omdb-api/static/css/main.259280f5.css.map",
-    "main.402746ec.js.map": "/marknik139/movies-omdb-api/static/js/main.402746ec.js.map"
+    "main.4eec8c9b.js.map": "/marknik139/movies-omdb-api/static/js/main.4eec8c9b.js.map"
   },
   "entrypoints": [
     "static/css/main.259280f5.css",
-    "static/js/main.402746ec.js"
+    "static/js/main.4eec8c9b.js"
   ]
 }
