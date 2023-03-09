@@ -13,7 +13,7 @@ class Main extends React.Component {
     }
 
     componentDidMount() {
-        const url = `http://www.omdbapi.com/?apikey=${API_KEY}&s=terminator`
+        const url = `https://www.omdbapi.com/?apikey=${API_KEY}&s=terminator`
         fetch(url)
         .then((resp) => resp.json())
         .then((data) => this.setState({movies: data.Search, loading: false}))
@@ -21,7 +21,7 @@ class Main extends React.Component {
 
     searchMovies = (str, type) => {
         this.setState({loading: true})
-        const url = `http://www.omdbapi.com/?apikey=${API_KEY}&s=${str}${ type !== '' ? `&type=${type}` : '' }`
+        const url = `https://www.omdbapi.com/?apikey=${API_KEY}&s=${str}${ type !== '' ? `&type=${type}` : '' }`
         fetch(url)
         .then((resp) => resp.json())
         .then((data) => this.setState({movies: data.Search, loading: false}))
